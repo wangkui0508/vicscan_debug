@@ -1,0 +1,23 @@
+{
+  "name": "yoda-protocol",
+  "scripts": {
+    "build": "hardhat compile",
+    "deposit-arb": "hardhat run scripts/stbt-deposit-arb-for-test.js"
+  },
+  "devDependencies": {
+    "@arbitrum/sdk": "^3.1.6",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "arb-shared-dependencies": "^1.0.0",
+    "ethers-eip712": "^0.2.0",
+    "hardhat": "^2.12.4",
+    "hardhat-deploy": "^0.11.45",
+    "solidity-coverage": "^0.8.2",
+    "yargs": "^17.6.2"
+  },
+  "dependencies": {
+    "@arbitrum/nitro-contracts": "^1.0.2",
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}
